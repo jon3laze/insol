@@ -9,7 +9,7 @@
 
     <!-- Fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Fira+Mono' rel='stylesheet' type='text/css'>
 
     <!-- Styles -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +32,7 @@
 
                 <!--Branding Image-->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <strong>Network</strong>.run
+                    <strong>in</strong>sol
                 </a>
                 <!--/Branding Image-->
             </div>
@@ -82,7 +82,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
-                @yield('content')
+                <div class="panel panel-default">
+                    @yield('content')
+                </div>
             </div>
         </div>
     </div>
@@ -93,7 +95,9 @@
             <div class="col-md-10 col-md-offset-1">
                 <div class="panel-body">
                     <div class="well well-sm text-center">
-                        <small><i class="fa fa-copyright fa-fw text-muted"></i>Network.run</small>
+                        <small>
+                            by <b>Network</b>.<sub>run</sub>
+                        </small>
                     </div>
                 </div>
             </div>

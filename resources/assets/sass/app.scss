@@ -1,2 +1,16 @@
+body {
+    font-family: 'Fira Mono';
+}
+
+.fa-btn {
+    margin-right: 6px;
+}
+
+.table {
+	tr[role="button"] {
+		cursor: pointer;
+	}
+}
+
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 

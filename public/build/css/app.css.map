@@ -1,1 +1,1 @@
-{"version":3,"sources":["app.css"],"names":[],"mappings":"AAAA","file":"app.css","sourceRoot":"/source/","sourcesContent":[]}
+{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAAA;EACI,yBAAyB,EAC5B;;AAED;EACI,kBAAkB,EACrB;;AAED;EAEE,gBAAgB,EAChB","file":"app.css","sourcesContent":["body {\n    font-family: 'Fira Mono';\n}\n\n.fa-btn {\n    margin-right: 6px;\n}\n\n.table {\n\ttr[role=\"button\"] {\n\t\tcursor: pointer;\n\t}\n}\n\n// @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";\n\n"],"sourceRoot":"/source/"}
