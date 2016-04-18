@@ -32,7 +32,7 @@
 
                 <!--Branding Image-->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <strong>in</strong>sol
+                    <strong>i</strong>qam
                 </a>
                 <!--/Branding Image-->
             </div>
@@ -54,9 +54,6 @@
                             <ul class="dropdown-menu" role="menu">
                                 @if(route('home') !== Request::url())
                                     <li><a href="{{ url('/') }}"><i class="fa fa-btn fa-home"></i>Dashboard</a></li>
-                                @endif
-                                @if(route('settings') !== Request::url())
-                                    <li><a href="{{ url('/settings') }}"><i class="fa fa-btn fa-gear"></i>Settings</a></li>
                                 @endif
                                 <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
                             </ul>
